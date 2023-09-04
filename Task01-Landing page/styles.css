@@ -1,0 +1,306 @@
+/* this file contains css for all the landing page elements */
+
+/* top banner */
+.top-banner{   
+    background-color: rgb(70, 155, 220);
+    background-image: url("assets/asset 32.png");
+    background-size: 25vw;
+}
+.banner-text{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.top-banner .container{
+    margin-block: 0;
+}
+
+/* navbar */
+nav{
+    background-color: rgba(70, 155, 220, 0.42);
+}
+nav .container{
+    margin-top:0;
+}
+.navbar{
+    justify-content: space-between;
+    height: 3em;
+    padding: 2rem;
+}
+/* become a tester */
+#grey-button{
+    background-image: url("assets/asset 33.svg");
+    border-radius: 7%;
+    padding: 0.2em 0.5em;
+    color: var(--secondary-text-color);
+}
+.company-logo{
+    gap: 0.3em;
+}
+.nav-links{
+    column-gap: 2em;
+}
+.grey-links{
+    color: var(--secondary-text-color);
+}
+.company-logo img{
+    height: 2em;
+}
+
+/* header */
+.header{
+    justify-content: space-between;
+    gap: 10%;
+}
+.header img{
+    width:40vw;
+    height:auto;
+}
+.header p{
+    margin-bottom: 1.5em;
+}
+
+/* companies */
+.companies-section p{
+    text-align: center;
+    font-weight: 500;
+}
+.images{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+.images img{
+    width: auto;
+    height: 2.5rem;
+}
+
+/* features*/
+.arrow{
+    margin-left: 0.5em;
+}
+.features{
+    background-image: url("assets/asset 267.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.feature-header h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.feature-header{
+    margin-bottom: 1.8rem;
+    margin-top: 2rem;
+}
+.feature-area{
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    justify-content: space-around;
+    align-content: space-between;
+    row-gap: 3rem;
+}
+.feature-card{
+    flex-direction: column;
+}
+.feature-card a{
+    margin-top: 0.2rem;
+}
+.feature-card img{
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* feature 1*/
+.feature-section{
+    justify-content: space-between;
+    gap: 2rem;
+}
+.feature-img img{
+    width: 35vw;
+}
+.feature-content{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+}
+/* for feature 2 */
+#reverse{
+    flex-direction: row-reverse;
+    margin-block: 0;
+}
+
+/* example */
+.example-section{
+    margin-bottom: 2rem;
+}
+.example-heading{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    padding: 1rem;
+}
+.example-heading h2{
+    margin-bottom: 1rem;
+}
+.example-images{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-holder{
+    justify-content: end;
+    align-self: stretch;
+    flex-direction: column;
+    height: 45vh;
+    width:22%;
+}
+.img-holder:hover{
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px 2px;
+}
+.img-holder h4{
+    color: white;
+    padding: 0.8em;
+}
+#img1{
+    background-image:  linear-gradient(to bottom,rgba(39, 36, 36, 0.2), rgba(0, 0, 0, 0.7)),url("assets/asset 36.jpeg");
+}
+#img2{
+    background-image: linear-gradient(to bottom,rgba(39, 36, 36, 0.2), rgba(0, 0, 0, 0.7)),url("assets/asset 37.jpeg");
+}
+#img3{
+    background-image: linear-gradient(to bottom,rgba(39, 36, 36, 0.2), rgba(0, 0, 0, 0.7)),url("assets/asset 38.jpeg");
+}
+#img4{
+    background-image: linear-gradient(to bottom,rgba(39, 36, 36, 0.2), rgba(0, 0, 0, 0.7)),url("assets/asset 39.jpeg");
+}
+
+/* pricing section */
+.pricing-section{
+    background-color: var(--primary-text-color);
+    color: white;
+}
+.pricing{
+    justify-content: space-between;
+    gap:0.3rem;
+    margin-bottom: 3rem;
+    padding-block: 3rem;
+}
+.lists{
+    padding: 1em;
+    margin-bottom: 1.5em;
+    width: 42vw;
+    justify-content: space-between;
+}
+.lists ul{
+    list-style-type: disc;
+}
+#dashed-link{
+    color: var(--subheader-light);
+    border-bottom: 1.2px dashed var(--subheader-light);
+    padding-bottom: 1px;
+}
+#button{
+    color: var(--subheader-light);
+    border-color: var(--subheader-light);
+    margin-left: 1em;
+}
+#button:hover{
+    color: var(--accent-color);
+}
+.pricing-image img{
+    width: 40vw;
+}
+
+/* footer */
+.footer-section{
+    background-color: #ebf2fa;
+}
+.footer{
+    justify-content: space-between;
+    padding: 4rem;
+    margin-bottom: 0;
+}
+.item{
+    align-self: flex-start;
+}
+.item h4{
+    margin-bottom: 1em;
+}
+.item li{
+    margin-bottom: 0.5em;
+}
+.item a{
+    color: var(--secondary-text-color);
+}
+.item a:hover{
+    color: var(--accent-color);
+}
+
+/* sub footer */
+.sub-footer-section{
+    background-color: #b9cde4; 
+}
+.sub-footer{
+    justify-content: space-evenly;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    margin-block: 0;
+}
+.text{
+    column-gap: 1.6em;
+}
+.icons{
+    column-gap: 1.2em;
+}
+.text a{
+    color: #183b56;
+}
+.text a:hover{
+    color: var(--accent-color);
+}
+.icons i:hover{
+    color:#2294ed;
+}
+
+/* for responsive navbar */
+.hamburg-icon .row{
+    display: none;
+}
+
+/* for hamburg icon and its animation */
+
+:root{
+    --icon-width: 28px;
+    --row-height: 5px;
+    --row-bg: rgba(0, 0, 0, 0.704);
+    --border-radius: 6px;
+}
+.hamburg-icon{
+    display: none;
+    flex-direction: column;
+    width: var(--icon-width);
+    height: var(--icon-width);
+    justify-content: space-between;
+}
+.row{
+    height: var(--row-height);
+    background-color: var(--row-bg);
+    border-radius: var(--border-radius);
+    transition-duration: 0.5s;
+}
+.row2.active{
+    opacity: 0;
+}
+.row1.active{
+    transform: translateY(calc(var(--row-height)*-1)) rotate(45deg);
+    transform-origin: left center;
+    width: calc(1.414 * var(--icon-width));
+}
+.row3.active{
+    transform: translateY(calc(var(--row-height))) rotate(-45deg);
+    transform-origin: left center;
+    width: calc(1.414 * var(--icon-width));
+}

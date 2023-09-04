@@ -1,0 +1,103 @@
+/* this file contains resets and utility classes */
+
+/* fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap'); */
+
+/* resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #0061ad;
+    --subheader-light:#b9cde4;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif !important;
+    color: var(--primary-text-color);
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+p{
+    font-family: 'roborto',sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: var(--secondary-text-color);
+    margin-bottom: 1.2em;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* utility classes */
+.inline{
+    display: inline;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.dull-white{
+    color: var(--subheader-light);
+}
+.text-center{
+    text-align: center;
+}
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight:700;
+}
+.container{
+    width:85%;
+    margin-inline: auto;
+    padding: 1em 2rem;
+    margin-block: 3rem;
+}
+.btn-one{
+    color: var(--primary-text-color);
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 5px;
+    padding: 0.7em 0.7em;
+    font-size: 1rem;
+    font-weight:700;
+    transition-duration: 0.4s;
+}
+.btn-one:hover{
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+.btn-two{
+    background-color: var(--accent-color);
+    color:white;
+    border: 1px solid var(--accent-color-dark);
+    border-radius: 5px;
+    padding: 0.7em 1em;
+    font-size: 1rem;
+    font-weight:700;
+    transition-duration: 0.4s;
+}
+.btn-two:hover{
+    background-color: var(--accent-color-dark);
+}
